@@ -1,0 +1,90 @@
+.v-tour__target--highlighted {
+  box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.4);
+}
+.v-step {
+  background: #141313;
+  color: white;
+  max-width: 320px;
+  border-radius: 13px;
+  padding: 2rem;
+  filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.5));
+  text-align: center;
+  z-index: 9999;
+}
+
+.v-step .v-step__arrow {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  position: absolute;
+  margin: 1.5rem;
+}
+
+.v-step[x-placement^='top'] {
+  margin-bottom: 2.5rem;
+}
+.v-step[x-placement^='top'] .v-step__arrow {
+  border-width: 1.5rem 1.5rem 0 1.5rem;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  bottom: -1.5rem;
+  left: calc(50% - 1rem);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.v-step[x-placement^='bottom'] {
+  margin-top: 2.5rem;
+}
+.v-step[x-placement^='bottom'] .v-step__arrow {
+  border-width: 0 1.5rem 1.5rem 1.5rem;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  top: -1.5rem;
+  left: calc(50% - 1rem);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.v-step[x-placement^='right'] {
+  margin-left: 2.5rem;
+}
+.v-step[x-placement^='right'] .v-step__arrow {
+  border-width: 1.5rem 1.5rem 1.5rem 0;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  left: -1.5rem;
+  top: calc(50% - 1rem);
+  margin-left: 0;
+  margin-right: 0;
+}
+.v-step[x-placement^='left'] {
+  margin-right: 2.5rem;
+  margin-left: 100px;
+}
+.v-step[x-placement^='left'] .v-step__arrow {
+  border-width: 1.5rem 0 1.5rem 1.5rem;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  /* remove  and uncomment below to show arrow */
+  border-left-color: transparent;
+  /* right: -1.5rem;
+  top: calc(50% - 1rem); */
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.v-step .v-step__arrow--dark {
+  border-color: #141313;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition-duration: 0.3s;
+  transition-property: opacity;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}

@@ -1,0 +1,188 @@
+:root {
+  --header-height: 4rem;
+  --header-icon-height: 2.25rem;
+  --sidebar-width: 4.5rem;
+  --sidebar-tab-height: calc(var(--sidebar-width) * 0.6);
+  /* COLOR VARS */
+  --primary_colour: #fedb00;
+  --active-user-room: #3bc146;
+  --not-active-user: #ff3746;
+
+  /* --header-gap: 1.5rem; */
+  /*  --secondary-grey: #aaa; */
+  /* --secondary-page-bg-grey: #e5e5e5; */
+  /* --dark-menu: #2c2c2c; */
+  /* --dark-grey: #606f80; */
+  /* --light-grey: #cbcbcb; */
+  /* --header-padding: 4rem; */
+  /*  --button-drop-shadow: -1px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  --button-drop-shadow-large: -2px 1px 4px 0px rgba(0, 0, 0, 0.3);
+  --button-drop-shadow-reversed: 2px 1px 3px 0px rgba(0, 0, 0, 0.15);
+  --button-drop-shadow-large-reversed: 2px 1px 4px 0px rgba(0, 0, 0, 0.08); */
+  /* --admin-color: #2a69ce; */
+  /* --user-color: #bdf302; */
+  /* --suspended-color: #ff3746; */
+  /* --active-user-room-light: #369b00; */
+  /* --room-participant-icon-size: 7.7vh; */
+  /*  --room-participant-lots-icon-size: 5vh; */
+  /*  --search-user-width: 3.5rem;
+  --icon-border-width: 3px; */
+  /*  --room-users-no: 1.65rem; */
+  /* --sidebar-icon-size: calc(var(--sidebar-width) * 0.56); */
+  /* --sidebar-background: rgba(230, 230, 230, 0.5); */
+  /* --sidebar-tab-background: var(--primary_colour); */
+  /* links panel needs to be */
+  /* --sidebar-content-width-links: calc(var(--sidebar-width) * 4); */
+  /* --sidebar-content-width: calc(var(--sidebar-width) * 4.2); */
+  /* --sidebar-blur: 15px; */
+  /* --notification-user-icon-size: 2.5rem; */
+  /* --notification-user-icon-border: 3px; */
+  --room-bounce-bezier: cubic-bezier(0, -0.5, 0, 1.3);
+  /* --checkbox-width: 0.8rem; */
+  /* --mid-black: #141313; */
+  /* font sizes */
+  /* --secondary-title-font-size: 1rem;  */ /* 28px */
+  /* --tertiary-title-font-size: calc(var(--secondary-title-font-size) * 0.7); */ /* 18px */
+  /* --body-font-size: calc(var(--secondary-title-font-size) * 0.7); */ /* 15px */
+
+  /* --sidebar-page-grid-gap: 1rem;
+  --sidebar-page-offset: calc(var(--sidebar-width) + var(--sidebar-page-grid-gap)); */
+}
+/* 
+.room-page-title {
+  --room-participant-icon-size: 1.5rem !important;
+  --room-participant-lots-icon-size: 1.5rem !important;
+}
+
+.app.my-profile,
+.app.manage-users {
+  --sidebar-background: rgba(250, 250, 250, 0.55);
+  --sidebar-tab-background: var(--light-grey);
+}
+.app.not-available.lobby,
+.app.not-available.space {
+  --sidebar-tab-background: var(--not-active-user);
+}
+.notification-invite.current-notification {
+  --notification-user-icon-size: 3rem;
+}
+@media (max-width: 700px) {
+  :root {
+    --header-padding: 3rem;
+    --header-gap: 1rem;
+    --room-users-no: 1.2rem;
+    --search-user-width: 3rem;
+    --room-participant-icon-size: 7.5vh;
+    --checkbox-width: 0.7rem;
+
+    --secondary-title-font-size: 0.9rem;
+  }
+  .room-page-title {
+    --room-participant-icon-size: 1.3rem !important;
+    --room-participant-lots-icon-size: 1.3rem !important;
+  }
+}
+@media (min-width: 1500px) {
+  :root {
+    --header-padding: 5rem;
+    --header-gap: 1.5rem;
+    --icon-border-width: 4px;
+    --room-users-no: 2rem;
+    --search-user-width: 5rem;
+    --checkbox-width: 1rem;
+
+    --secondary-title-font-size: 1.15rem;
+  }
+  .room-page-title {
+    --room-participant-icon-size: 1.7rem !important;
+    --room-participant-lots-icon-size: 1.7rem !important;
+  }
+} */
+
+.html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary_colour);
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: black;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+.app {
+  background: var(--primary_colour);
+  transition: all 0.3s ease-out;
+}
+.app.not-available {
+  background: var(--not-active-user);
+}
+.app .page:not(.home) {
+  height: calc(100vh - var(--header-height)) !important;
+}
+
+button {
+  outline: none;
+  border: none;
+  background: white;
+  color: black;
+  font-family: 'Lato';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-height: 100%;
+  user-select: none;
+}
+.main-page {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+.hide {
+  display: none !important;
+}
+.hidden {
+  visibility: hidden;
+}
+
+.fade-out {
+  animation: fadeOut 0.3s ease-out forwards;
+}
+img {
+  user-select: none;
+}
+
+.atlwdg-trigger {
+  color: red !important;
+  text-decoration: none !important;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
