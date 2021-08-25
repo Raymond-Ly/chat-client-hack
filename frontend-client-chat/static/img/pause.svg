@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="59" height="59" viewBox="0 0 59 59">
+  <defs>
+    <filter id="Rectangle_17193" x="0" y="0" width="59" height="59" filterUnits="userSpaceOnUse">
+      <feOffset dx="-3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_151_1" data-name="Component 151 – 1" transform="translate(7.5 1.5)">
+    <g id="Group_10391" data-name="Group 10391" transform="translate(-720.461 -1339.461)" opacity="0">
+      <g transform="matrix(1, 0, 0, 1, 712.96, 1337.96)" filter="url(#Rectangle_17193)">
+        <rect id="Rectangle_17193-2" data-name="Rectangle 17193" width="50" height="50" rx="25" transform="translate(7.5 1.5)" fill="#2c2c2c"/>
+      </g>
+    </g>
+    <g id="Group_12053" data-name="Group 12053" transform="translate(8547 2033.67)">
+      <line id="Line_1008" data-name="Line 1008" y2="20" transform="translate(-8527.5 -2018.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_1009" data-name="Line 1009" y2="20" transform="translate(-8516.5 -2018.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
