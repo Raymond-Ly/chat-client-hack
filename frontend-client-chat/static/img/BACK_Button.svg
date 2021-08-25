@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <clipPath id="clip-BACK">
+      <rect width="72" height="72"/>
+    </clipPath>
+  </defs>
+  <g id="BACK" clip-path="url(#clip-BACK)">
+    <g id="Component_121_86" data-name="Component 121 – 86" transform="translate(2 1)">
+      <path id="Path_3142" data-name="Path 3142" d="M6.009,0A6,6,0,1,1,0,6.009,5.978,5.978,0,0,1,6.009,0Z" transform="translate(64.095 28.838) rotate(90)"/>
+      <g id="Group_12006" data-name="Group 12006" transform="translate(-0.446 0.469)">
+        <ellipse id="Ellipse_2144" data-name="Ellipse 2144" cx="13" cy="13" rx="13" ry="13" transform="translate(41.704 43.372)"/>
+        <g id="Group_12006-2" data-name="Group 12006" transform="translate(0 0)">
+          <ellipse id="Ellipse_2144-2" data-name="Ellipse 2144" cx="25" cy="25.5" rx="25" ry="25.5" transform="translate(0.446 -0.469)" fill="#fff"/>
+          <path id="Path_3192" data-name="Path 3192" d="M65.994,506.686l8.334-8.331a1.9,1.9,0,0,0-2.685-2.68L60.067,507.237l-.007.007a1.891,1.891,0,0,0,.007,2.675l11.576,11.561a1.9,1.9,0,1,0,2.686-2.688l-8.335-8.323H86.311c.047-.624.079-1.252.079-1.887s-.032-1.269-.079-1.895Z" transform="translate(-36.345 -483.57)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
