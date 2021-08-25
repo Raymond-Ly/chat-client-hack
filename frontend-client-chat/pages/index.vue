@@ -65,7 +65,7 @@ export default {
     },
     letMeIn() {
       this.$store.commit('updateUserName', this.userName);
-      this.$router.push('/chat');
+      this.$router.push('/chat-room');
     },
     enterKeyListener() {
       const letMeIn = document.getElementById('letMeIn');
