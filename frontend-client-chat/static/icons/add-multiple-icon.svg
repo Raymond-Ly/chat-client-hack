@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="315.652" height="315.652" viewBox="0 0 315.652 315.652">
+  <defs>
+    <filter id="Path_1953" x="0" y="0" width="315.652" height="315.652" filterUnits="userSpaceOnUse">
+      <feOffset dx="-3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_8592" data-name="Group 8592" transform="translate(2976.652 13349.652)">
+    <g id="Group_8512" data-name="Group 8512" transform="translate(-2667.005 -13046.005) rotate(180)">
+      <g id="Buton_Chat" transform="translate(-0.005 -0.005)">
+        <g transform="matrix(-1, 0, 0, -1, 309.65, 303.65)" filter="url(#Path_1953)">
+          <path id="Path_1953-2" data-name="Path 1953" d="M148.826,0A148.826,148.826,0,1,1,0,148.826,148.826,148.826,0,0,1,148.826,0Z" transform="translate(309.65 303.65) rotate(180)" fill="#fedb00"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_8513" data-name="Group 8513" transform="translate(-2867 -13263)">
+      <path id="Path_507" data-name="Path 507" d="M2130.225,1328.7a50.516,50.516,0,1,1,101.032,0" transform="translate(-2130.225 -1193.167)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="4"/>
+      <circle id="Ellipse_35" data-name="Ellipse 35" cx="34.499" cy="34.499" r="34.499" transform="translate(16.018)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="4"/>
+    </g>
+    <g id="Group_8517" data-name="Group 8517" transform="translate(0 -0.523)">
+      <g id="Group_8514" data-name="Group 8514" transform="translate(-2772 -13226.477)">
+        <path id="Path_507-2" data-name="Path 507" d="M2130.225,1301.437a23.255,23.255,0,1,1,46.509,0" transform="translate(-2130.225 -1239.046)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="4"/>
+        <circle id="Ellipse_35-2" data-name="Ellipse 35" cx="15.881" cy="15.881" r="15.881" transform="translate(7.374)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="4"/>
+      </g>
+      <g id="Group_8516" data-name="Group 8516">
+        <circle id="Ellipse_1402" data-name="Ellipse 1402" cx="15.881" cy="15.881" r="15.881" transform="translate(-2905.626 -13226.477)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="4"/>
+        <g id="Group_8515" data-name="Group 8515" transform="translate(-2913 -13226.477)">
+          <path id="Path_507-3" data-name="Path 507" d="M2130.225,1301.437a23.255,23.255,0,1,1,46.509,0" transform="translate(-2130.225 -1239.046)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="4"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg id="Stage" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <rect id="Rectangle_17184" data-name="Rectangle 17184" width="50" height="50" rx="25" fill="transparent"/>
+  <g id="Group_13072" data-name="Group 13072" opacity="0.8">
+    <text id="STAGE-2" data-name="STAGE" transform="translate(25 29)" fill="#fff" font-size="11" font-family="Lato-Black, Lato" font-weight="800" letter-spacing="0.04em"><tspan x="-17.79" y="0">STAGE</tspan></text>
+    <g id="Group_13070" data-name="Group 13070" transform="translate(-460.248 -386.104)">
+      <path id="Path_3344" data-name="Path 3344" d="M466.249,401.6a21.009,21.009,0,0,1,37.468,0" transform="translate(0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_3345" data-name="Path 3345" d="M503.717,419a21.009,21.009,0,0,1-37.468,0" transform="translate(0 1.603)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+    <circle id="Ellipse_2299" data-name="Ellipse 2299" cx="1.5" cy="1.5" r="1.5" transform="translate(45 24)" fill="#fff"/>
+    <circle id="Ellipse_2300" data-name="Ellipse 2300" cx="1.5" cy="1.5" r="1.5" transform="translate(2 24)" fill="#fff"/>
+  </g>
+</svg>
